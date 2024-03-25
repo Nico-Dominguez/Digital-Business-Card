@@ -1,0 +1,134 @@
+/* css reset */
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+/* default styles */
+body {
+    background: #23252C;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+/* container wrapper */
+.container {
+    margin: auto;
+    max-width: 320px;
+    margin-top: 3em;
+    border-radius: 10px 10px 0 0;
+
+}
+
+/* main section container */
+.main-container {
+    background-color: #1A1B21;
+    border-radius: 10px 10px 0 0;
+}
+
+.main-container img {
+    width: 100%;
+}
+
+/* main */
+.main {
+    padding: 1.25em;
+    /* border: 1px dashed red; */
+}
+
+/* main-top */
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.center {
+    text-align: center;   
+}
+
+.top h1 {
+    font-size: 1.56rem;
+}
+
+.top h2 {
+    font-size: 0.8rem;
+    color: #F3BF99;
+    font-weight: normal;
+    margin-top: -3px;
+}
+
+.top h3 {
+    font-size: 0.64rem;
+    font-weight: normal;    
+}
+
+.email-btn {
+    background-color: white;
+    /* border: 1px dashed red; */
+    display: block;
+    width: 100%;
+    padding: 9px 13px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+
+.fa-envelope {
+    margin-right: 8px; 
+}
+
+/* main-bottom */
+.bottom h1 {
+    font-size: 1rem;
+}
+
+.bottom p {
+    color: #DCDCDC;
+    margin-top: 5px;
+    margin-bottom: 27px;
+    font-weight: normal;
+    font-size: 0.64rem;
+    line-height: 1.7;
+}
+
+
+/* footer */
+.footer {
+    background-color: #161619;
+    /* border: 1px dashed red; */
+    border-radius: 0 0 10px 10px;
+    padding: 1.4em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.footer img:hover {
+    background: gold;
+    cursor: pointer;   
+}
+
+/* button */
+button {
+    margin: auto auto;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    background: #23252C;
+}
+
+button img {
+    width: 25px;
+}
